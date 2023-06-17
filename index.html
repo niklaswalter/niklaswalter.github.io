@@ -32,6 +32,20 @@
       margin-bottom: 20px;
     }
   </style>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+      },
+      options: {
+        processHtmlClass: 'mathjax',
+      }
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header>
@@ -47,8 +61,8 @@
     
     <h2>Articles</h2>
     <ul>
-      <li><a href="article1.md">Heat Equation </a></li>
-    <!-- Add more articles and their links as needed -->
+      <li><a href="article1.md">Heat Equation</a></li>
+      <!-- Add more articles and their links as needed -->
     </ul>
   </main>
 </body>
