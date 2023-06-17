@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <title>Niklas Walter</title>
   <style>
     body {
@@ -11,54 +9,57 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      text-align: justify;
     }
-    
+
     header {
       background-color: #333;
       color: #fff;
       padding: 20px;
       text-align: center;
     }
-    
+
     main {
-      text-align: center;
       padding: 20px;
     }
-    
+
     img {
       width: 300px;
       height: 300px;
       border-radius: 50%;
       margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: 10px;
     }
   </style>
-  
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$']],
-        displayMath: [['$$', '$$']],
-      },
-      options: {
-        processHtmlClass: 'mathjax',
-      }
-    };
-  </script>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header>
     <h1>Niklas Walter</h1>
   </header>
-  
+
   <main>
     <img src="IMG_5875-2.jpg" alt="Your Name">
     <h2>About Me</h2>
     <p>
       I am a DPhil Mathematics student at LMU Munich. With a primarily theoretical grounding in the realm of probability theory, I meandered through the vast expanse of mathematical finance and stochastic calculus during my MSc, only to now discover myself standing precariously at the precipice of the tempestuous water of machine learning.
     </p>
-    
+
     <h2>Articles</h2>
     <ul>
       <li><a href="article1.html">Heat Equation</a></li>
