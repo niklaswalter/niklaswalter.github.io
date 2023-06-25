@@ -22,14 +22,20 @@
       padding: 20px;
       margin: 0 auto;
       max-width: 800px;
-      text-align: left; /* Aligned the text to the left */
+      display: flex; /* Added flex display */
+      align-items: center; /* Centered vertically */
+      justify-content: flex-start; /* Aligned content to the left */
+    }
+
+    .text-box {
+      flex: 1; /* Occupies remaining space */
     }
 
     img {
       width: 300px;
-      height: 300px;
+      height: auto; /* Adjusted height to auto */
       border-radius: 50%;
-      margin-bottom: 20px;
+      margin-left: 20px; /* Moved margin to the left */
     }
 
     h1 {
@@ -59,23 +65,19 @@
 </head>
 <body>
   <main>
-    <div style="display: flex; align-items: center; justify-content: flex-start; margin-bottom: 20px;">
-      <div>
-        <h2>Niklas Walter</h2>
-        <p>
-          I am a DPhil Mathematics student at LMU Munich. With a primarily theoretical grounding in the realm of probability theory, I meandered through the vast expanse of mathematical finance and stochastic calculus during my MSc, only to now discover myself standing precariously at the precipice of the tempestuous water of machine learning.
-        </p>
-      </div>
-      <div style="margin-left: 20px;">
-        <img src="IMG_5875-2-white-back.jpg" alt="Your Name">
-      </div>
+    <div class="text-box">
+      <h2>Niklas Walter</h2>
+      <p>
+        I am a DPhil Mathematics student at LMU Munich. With a primarily theoretical grounding in the realm of probability theory, I meandered through the vast expanse of mathematical finance and stochastic calculus during my MSc, only to now discover myself standing precariously at the precipice of the tempestuous water of machine learning.
+      </p>
     </div>
-
-    <h2>Articles</h2>
-    <ul>
-      <li><a href="article1.html">Heat Equation</a></li>
-      <!-- Add more articles and their links as needed -->
-    </ul>
+    <img src="IMG_5875-2-white-back.jpg" alt="Your Name">
   </main>
+
+  <h2>Articles</h2>
+  <ul>
+    <li><a href="article1.html">Heat Equation</a></li>
+    <!-- Add more articles and their links as needed -->
+  </ul>
 </body>
 </html>
