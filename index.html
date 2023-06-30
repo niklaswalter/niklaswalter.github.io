@@ -22,13 +22,10 @@
       padding: 20px;
       margin: 0 auto;
       max-width: 800px;
-      display: flex; /* Added flex display */
-      align-items: center; /* Centered vertically */
       text-align: justify; /* Justified text alignment */
     }
 
     .text-box {
-      flex: 1; /* Occupies remaining space */
       margin-right: 40px; /* Added margin to the right */
       text-align: justify; /* Justified text alignment */
     }
@@ -94,43 +91,44 @@
   </style>
 </head>
 <body>
-  <main>
-    <div class="text-box">
-      <h2>Niklas Walter</h2>
+  <div class="container">
+    <main>
+      <div class="text-box">
+        <h2>Niklas Walter</h2>
+        <p>
+          I am a DPhil Mathematics student at LMU Munich. With a primarily theoretical grounding in the realm of probability theory, I meandered through the vast expanse of mathematical finance and stochastic calculus during my MSc, only to now discover myself standing precariously at the precipice of the tempestuous water of machine learning.
+          <br><br>
+          You can contact me via email at <a href="mailto:walter@math.lmu.de">walter@math.lmu.de</a>.
+          <br><br>
+          Connect with me on:
+          <br>
+          <a href="https://github.com/niklaswalter/">GitHub</a>
+          <a href="https://linkedin.com/in/niklas-walter-a6a165113/">LinkedIn</a>
+        </p>
+      </div>
+      <img src="IMG_5875-2-white-back.jpg" alt="Your Name">
+    </main>
+  
+    <div class="sections">
+      <h2>Research Areas</h2>
       <p>
-        I am a DPhil Mathematics student at LMU Munich. With a primarily theoretical grounding in the realm of probability theory, I meandered through the vast expanse of mathematical finance and stochastic calculus during my MSc, only to now discover myself standing precariously at the precipice of the tempestuous water of machine learning.
-        <br><br>
-        You can contact me via email at <a href="mailto:walter@math.lmu.de">walter@math.lmu.de</a>.
-        <br><br>
-        Connect with me on:
-        <br>
-        <a href="https://github.com/niklaswalter/">GitHub</a>
-        <a href="https://linkedin.com/in/niklas-walter-a6a165113/">LinkedIn</a>
+        During my PhD studies, I have worked/currently worked on both financial mathematical questions and mathematical foundations of machine learning techniques. In particular, I tried to address problems arising from financial questions with solutions involving machine learning. Moreover, due to my mathematical background, I tried to study those techniques from a mathematical point of view to not only apply but also understand them in depth. Over the last three years, I worked on:
+        <ul class="a">
+          <li>Rough Volatility Models</li>
+          <li>Application of Neural Network Approximation to Deep Calibration</li>
+          <li>Randomised Signatures/Reservoir Computing</li>
+        </ul>
       </p>
-    </div>
-    <img src="IMG_5875-2-white-back.jpg" alt="Your Name">
-  </main>
   
-  <div class="sections">
-    <h2>Research Areas</h2>
-    <p>
-      During my PhD studies, I have worked/currently worked on both financial mathematical questions and mathematical foundations of machine learning techniques. In particular, I tried to address problems arising from financial questions with solutions involving machine learning. Moreover, due to my mathematical background, I tried to study those techniques from a mathematical point of view to not only apply but also understand them in depth. Over the last three years, I worked on:
-      <ul class="a">
-        <li>Rough Volatility Models</li>
-        <li>Application of Neural Network Approximation to Deep Calibration</li>
-        <li>Randomised Signatures/Reservoir Computing</li>
+      <h2>Articles</h2>
+      <ul>
+        <li class="article">
+          <img class="article-thumbnail" src="articles/thumbnail_projection.png" alt="Article 1 Thumbnail">
+          <a href="articles/Notes_on_Projections-7.pdf" download>Applications of orthogonal projections</a>
+        </li>
+        <!-- Add more articles and their links as needed -->
       </ul>
-    </p>
-
-    <h2>Articles</h2>
-    <ul>
-      <li class="article">
-        <img class="article-thumbnail" src="articles/thumbnail_projection.png" alt="Article 1 Thumbnail">
-        <a href="articles/Notes_on_Projections-7.pdf" download>Applications of orthogonal projections</a>
-      </li>
-      <!-- Add more articles and their links as needed -->
-    </ul>
+    </div>
   </div>
-  
 </body>
 </html>
