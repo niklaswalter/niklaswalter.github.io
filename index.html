@@ -33,12 +33,6 @@
       text-align: justify; /* Justified text alignment */
     }
 
-    .text-box2 {
-      flex: 1; /* Occupies remaining space */
-      margin-right: 0px; /* Added margin to the right */
-      text-align: justify; /* Justified text alignment */
-    }
-
     img {
       width: 200px;
       height: 200px;
@@ -50,26 +44,15 @@
     }
 
     h2 {
-      margin-top: 20px;
-      padding: 20px;
-      margin: 0 auto;
-      max-width: 800px;
-      display: flex; /* Added flex display */
-      align-items: center; /* Centered vertically */
-      text-align: justify; /* Justified text alignment */
+      text-align: left;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
     }
 
     p {
-      padding: 20px;
-      margin: 0 auto;
+      font-family: 'Roboto', sans-serif;
       max-width: 800px;
-      display: flex; /* Added flex display */
-      align-items: center; /* Centered vertically */
       text-align: justify; /* Justified text alignment */
-    }
-
-    .p1{
-      
     }
 
     ul {
@@ -84,7 +67,7 @@
       list-style-type: square;
       padding: 0;
       text-align: left;
-      margin-left: 245px; /* Reset default margin */
+      margin-left: 234px; /* Reset default margin */
       margin-top: 0; /* Reset default margin */
     }
 
@@ -116,35 +99,31 @@
         You can contact me via email at <a href="mailto:walter@math.lmu.de">walter@math.lmu.de</a>.
         <br><br>
         Connect with me on:
+        <br>
         <a href="https://github.com/niklaswalter/">GitHub</a>
         <a href="https://linkedin.com/in/niklas-walter-a6a165113/">LinkedIn</a>
       </p>
     </div>
     <img src="IMG_5875-2-white-back.jpg" alt="Your Name">
-
-    <div class="text-box2">
+  
     <h2>Research Areas</h2>
-      <p>
-        During my PhD studies, I have worked/currently worked on both financial mathematical questions and mathematical foundations of machine learning techniques. In particular, I tried to address problems arising from financial questions with solutions involving machine learning. Moreover, due to my mathematical background, I tried to study those techniques from a mathematical point of view to not only apply but also understand them in depth. Over the last three years, I worked on:
-        <ul>
-          <li>Rough Volatility Models</li>
-          <li>Application of Neural Network Approximation to Deep Calibration</li>
-          <li>Randomised Signatures/Reservoir Computing</li>
-        </ul>
-      </p>
-    </div>
-
-    <div class="text-box2">
-    <h2>Articles</h2>
-      <ul>
-        <li class="article">
-          <img class="article-thumbnail" src="articles/thumbnail_projection.png" alt="Article 1 Thumbnail">
-          <a href="articles/Notes_on_Projections-7.pdf" download>Applications of orthogonal projections</a>
-        </li>
-        <!-- Add more articles and their links as needed -->
+    <p>
+      During my PhD studies, I have worked/currently worked on both financial mathematical questions and mathematical foundations of machine learning techniques. In particular, I tried to address problems arising from financial questions with solutions involving machine learning. Moreover, due to my mathematical background, I tried to study those techniques from a mathematical point of view to not only apply but also understand them in depth. Over the last three years, I worked on:
+      <ul class="a">
+        <li>Rough Volatility Models</li>
+        <li>Application of Neural Network Approximation to Deep Calibration</li>
+        <li>Randomised Signatures/Reservoir Computing</li>
       </ul>
-    </div>
-  </main>
+    </p>
 
+    <h2>Articles</h2>
+    <ul>
+      <li class="article">
+        <img class="article-thumbnail" src="articles/thumbnail_projection.png" alt="Article 1 Thumbnail">
+        <a href="articles/Notes_on_Projections-7.pdf" download>Applications of orthogonal projections</a>
+      </li>
+      <!-- Add more articles and their links as needed -->
+    </ul>
+  </main>
 </body>
 </html>
